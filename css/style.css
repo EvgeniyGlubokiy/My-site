@@ -341,15 +341,15 @@ template {
 
 @font-face {
   font-family: "Overpass-Bold";
-  src: url(/fonts/Overpass-Bold.ttf);
+  src: url(../fonts/Overpass-Bold.ttf);
 }
 @font-face {
   font-family: "Roboto-Medium";
-  src: url(/fonts/Roboto-Medium.ttf);
+  src: url(../fonts/Roboto-Medium.ttf);
 }
 @font-face {
   font-family: "Roboto-Regular";
-  src: url(/fonts/Roboto-Regular.ttf);
+  src: url(../fonts/Roboto-Regular.ttf);
 }
 body::-webkit-scrollbar {
   background-color: #eec24c;
@@ -990,7 +990,7 @@ main .services-block__list-item-text .icon-circle1 {
   background-image: url(../img/service-icon1.png);
 }
 main .services-block__list-item-text .icon-circle2 {
-  background-image: url(..//img/service-icon2.png);
+  background-image: url(../img/service-icon2.png);
 }
 main .services-block__list-item-text .icon-circle3 {
   background-image: url(../img/service-icon3l.png);
