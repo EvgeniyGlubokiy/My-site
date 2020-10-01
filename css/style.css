@@ -391,7 +391,7 @@ a {
 .header {
   width: 100%;
   height: 100vh;
-  background-image: url(/img/baner-image.png);
+  background-image: url(../img/baner-image.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -750,7 +750,7 @@ a {
 }
 .header .header-block_slider .slick-prev {
   left: 30px;
-  background-image: url(/img/arrow-left-black.svg);
+  background-image: url(../img/arrow-left-black.svg);
   position: absolute;
   top: 40px;
   width: 50px;
@@ -774,11 +774,11 @@ a {
   cursor: pointer;
 }
 .header .header-block_slider .slick-prev:hover {
-  background-image: url(/img/arrow-left-orange.svg);
+  background-image: url(../img/arrow-left-orange.svg);
 }
 .header .header-block_slider .slick-next {
   right: 30px;
-  background-image: url(/img/arrow-right-black.svg);
+  background-image: url(../img/arrow-right-black.svg);
   position: absolute;
   top: 40px;
   width: 50px;
@@ -802,7 +802,7 @@ a {
   cursor: pointer;
 }
 .header .header-block_slider .slick-next:hover {
-  background-image: url(/img/arrow-right-orange.svg);
+  background-image: url(../img/arrow-right-orange.svg);
 }
 .header .header-block_slider .slick-dots {
   display: flex;
@@ -918,7 +918,7 @@ a {
 }
 
 main .btn-top {
-  background: url(/img/arrow-left-black.svg);
+  background: url(../img/arrow-left-black.svg);
   background-color: #eec24c;
   width: 50px;
   height: 50px;
@@ -987,22 +987,22 @@ main .services-block__list-item-text .service-block__circle {
   background-repeat: no-repeat;
 }
 main .services-block__list-item-text .icon-circle1 {
-  background-image: url(/img/service-icon1.png);
+  background-image: url(../img/service-icon1.png);
 }
 main .services-block__list-item-text .icon-circle2 {
-  background-image: url(/img/service-icon2.png);
+  background-image: url(../img/service-icon2.png);
 }
 main .services-block__list-item-text .icon-circle3 {
-  background-image: url(/img/service-icon3l.png);
+  background-image: url(../img/service-icon3l.png);
 }
 main .services-block__list-item-text .icon-circle4 {
-  background-image: url(/img/service-icon4.png);
+  background-image: url(../img/service-icon4.png);
 }
 main .services-block__list-item-text .icon-circle5 {
-  background-image: url(/img/service-icon5.png);
+  background-image: url(../img/service-icon5.png);
 }
 main .services-block__list-item-text .icon-circle6 {
-  background-image: url(/img/service-icon6.png);
+  background-image: url(../img/service-icon6.png);
 }
 main .services-block__list-item-text button {
   position: relative;
@@ -1080,16 +1080,16 @@ main .choose-us__list-item p {
   }
 }
 main .choose-us__list-item .first-icon {
-  background-image: url(/img/calendar.svg);
+  background-image: url(../img/calendar.svg);
 }
 main .choose-us__list-item .second-icon {
-  background-image: url(/img/coin.svg);
+  background-image: url(../img/coin.svg);
 }
 main .choose-us__list-item .third-icon {
-  background-image: url(/img/gear.svg);
+  background-image: url(../img/gear.svg);
 }
 main .choose-us__list-item .fourth-icon {
-  background-image: url(/img/start.svg);
+  background-image: url(../img/start.svg);
 }
 main .cost {
   margin-top: 90px;
@@ -1217,7 +1217,7 @@ main .portfolio-block-list {
   }
 }
 main .portfolio-block-list__first-card {
-  background-image: url(/img/cbd.jpg);
+  background-image: url(../img/cbd.jpg);
   width: 30%;
   min-width: 280px;
   height: 169px;
@@ -1284,7 +1284,7 @@ main .portfolio-block-list__first-card:before {
   content: "Интернет магазин CBD";
 }
 main .portfolio-block-list__second-card {
-  background-image: url(/img/monticello.jpg);
+  background-image: url(../img/monticello.jpg);
   background-position: center;
   width: 30%;
   min-width: 280px;
@@ -1353,7 +1353,7 @@ main .portfolio-block-list__second-card:before {
   text-align: center;
 }
 main .portfolio-block-list__third-card {
-  background-image: url(/img/sorbat.jpg);
+  background-image: url(../img/sorbat.jpg);
   width: 30%;
   min-width: 280px;
   height: 169px;
@@ -1423,7 +1423,7 @@ main .portfolio-block-list__third-card:before {
 
 .footer {
   margin-top: 80px;
-  background-image: url(/img/footer-image.jpg);
+  background-image: url(../img/footer-image.jpg);
   background-size: 100% 100%;
   background-position: center;
   width: 100%;
@@ -1514,7 +1514,7 @@ main .portfolio-block-list__third-card:before {
   height: 40px;
   border-radius: 50%;
   background-color: #eec24c;
-  background-image: url(/img/email.svg);
+  background-image: url(../img/email.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 20px 20px;
@@ -1550,7 +1550,7 @@ main .portfolio-block-list__third-card:before {
   height: 40px;
   border-radius: 50%;
   background-color: #eec24c;
-  background-image: url(/img/call.svg);
+  background-image: url(../img/call.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 20px 20px;
