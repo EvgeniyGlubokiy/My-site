@@ -88,7 +88,7 @@
     display: block;
   }
   .slick-initialized .slick-slide {
-    padding-left: 0px;
+    padding-left: 3px;
     padding-right: 0px;
   }
   .slick-loading .slick-slide {

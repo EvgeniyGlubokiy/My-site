@@ -5,7 +5,7 @@ $(function () {
         slidesToShow: 1,
         autoplay: false,
         speed: 1000,
-        autoplaySpeed: 4000,
+        autoplaySpeed: 6000,
         arrows: true,
         fade: true,
         speed: 1500,
@@ -52,11 +52,11 @@ $(() => {
 // })
 //=======================Send Form
 $(document).ready(function () {
-    $('#form').submit(function () {
+    $('.form').submit(function () {
         $.ajax({
             type: "POST",
             url: "form.php",
-            data: $(this).serialize()
+            data: $(this).serialize(),
         }).done(function () {
             $('.js-overlay-thank-you').fadeIn();
             $(this).find('input').val('');

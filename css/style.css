@@ -424,7 +424,6 @@ a {
 @media screen and (max-width: 768px) {
   .header .header-strip > .section .number-block {
     display: flex;
-    justify-content: space-between;
   }
 }
 @media screen and (max-width: 576px) {
@@ -510,11 +509,15 @@ a {
     width: 30%;
   }
 }
-.header .header-strip > .section .social-block i:not(:last-child) {
+.header .header-strip > .section .social-block a {
+  color: #000000;
+  margin: auto 0;
+}
+.header .header-strip > .section .social-block a:not(:last-child) {
   margin-right: 20px;
 }
 @media screen and (max-width: 576px) {
-  .header .header-strip > .section .social-block i:not(:last-child) {
+  .header .header-strip > .section .social-block a:not(:last-child) {
     margin-right: 12px;
   }
 }
@@ -582,7 +585,7 @@ a {
   flex-grow: 1;
   justify-content: flex-end;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .header-nav-bar .top-nav .header-nav {
     display: none;
   }
@@ -623,7 +626,7 @@ a {
   top: -5px;
   display: none;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .header-nav-bar .top-nav .header-burger {
     display: block;
   }
@@ -747,6 +750,69 @@ a {
   100% {
     opacity: 1;
   }
+}
+.header .header-block_slider .second-slide :nth-child(2), .header .header-block_slider .third-slide :nth-child(2) {
+  font-size: 25px;
+  text-decoration: underline;
+}
+@media screen and (max-width: 450px) {
+  .header .header-block_slider .second-slide :nth-child(2), .header .header-block_slider .third-slide :nth-child(2) {
+    font-size: 22px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 370px) {
+  .header .header-block_slider .second-slide :nth-child(2), .header .header-block_slider .third-slide :nth-child(2) {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+.header .header-block_slider .second-slide p, .header .header-block_slider .third-slide p {
+  margin: 10px 0;
+}
+.header .header-block_slider .second-slide p span, .header .header-block_slider .third-slide p span {
+  color: #eec24c;
+}
+.header .header-block_slider .second-slide h2, .header .header-block_slider .third-slide h2 {
+  margin: 0;
+  color: #eec24c;
+  font-size: 36px;
+}
+@media screen and (max-width: 450px) {
+  .header .header-block_slider .second-slide h2, .header .header-block_slider .third-slide h2 {
+    font-size: 26px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 370px) {
+  .header .header-block_slider .second-slide h2, .header .header-block_slider .third-slide h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+}
+.header .header-block_slider .second-slide button, .header .header-block_slider .third-slide button {
+  margin-bottom: 20px;
+  color: #000000;
+  position: relative;
+  border: none;
+  background-color: #eec24c;
+  outline: none;
+  font-family: "Roboto-Regular";
+  font-size: 25px;
+  line-height: 40px;
+  transition: 0.4s;
+}
+.header .header-block_slider .second-slide button a, .header .header-block_slider .third-slide button a {
+  color: #000000;
+  outline: none;
+}
+.header .header-block_slider .second-slide button:hover, .header .header-block_slider .third-slide button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 7px 3px #eec24c;
+  background-color: transparent;
+}
+.header .header-block_slider .second-slide button:hover a, .header .header-block_slider .third-slide button:hover a {
+  color: #eec24c;
 }
 .header .header-block_slider .slick-prev {
   left: 30px;
@@ -967,6 +1033,7 @@ main .services-block__list-item img {
 main .services-block__list-item-text {
   position: relative;
   width: 76%;
+  min-height: 270px;
   margin-left: 7px;
   box-shadow: 0px 1px 17px 0px;
   border-radius: 0 0 10px 10px;
@@ -1004,6 +1071,9 @@ main .services-block__list-item-text .icon-circle5 {
 main .services-block__list-item-text .icon-circle6 {
   background-image: url(../img/service-icon6.png);
 }
+main .services-block__list-item-text ul {
+  text-align: left;
+}
 main .services-block__list-item-text button {
   position: relative;
   border: none;
@@ -1013,6 +1083,9 @@ main .services-block__list-item-text button {
   font-size: 25px;
   line-height: 40px;
   transition: 0.4s;
+  position: absolute;
+  bottom: 25px;
+  left: 26%;
 }
 main .services-block__list-item-text button a {
   color: #000000;
